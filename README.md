@@ -6,6 +6,9 @@ Procesamiento Asíncrono de Préstamos: Uso de SwingWorker para realizar transac
 Control de Stock Sincronizado: Métodos con modificador synchronized para prevenir condiciones de carrera (race conditions) durante la actualización de inventario.
 Reportes y Consultas: Visualización gráfica de préstamos activos, historial e inventario.
 Arquitectura del Proyecto (MVC + DAO)El código está estructurado en capas dentro del directorio src/ para mantener una clara separación de responsabilidades:src/
+
+
+
 ├── app/
 │   └── Main.java                    # Punto de entrada de la aplicación
 ├── config/
